@@ -1,7 +1,8 @@
 import * as ElementPlusIconsVue from '@element-plus/icons-vue';
 import SvgIcon from './SvgIcon/index.vue';
+import Identify from './IdentifyCode/index.vue'
 
-const allGloablComponent: any = { SvgIcon };
+const allGloablComponent: any = { SvgIcon, Identify };
 
 //对外暴露插件对象
 export default {
